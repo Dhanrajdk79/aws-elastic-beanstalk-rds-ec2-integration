@@ -174,63 +174,47 @@ SELECT * FROM users;
 
 ## 📸 Screenshots & Output Examples
 
-### 1️⃣ Terraform Apply Success
+### 1️⃣ Architecture Diagram
 
-Shows infrastructure provisioning complete.
-
-![Terraform Apply](images/terraform-apply.png)
+![Architecture Diagram](images/architecture.png)
 
 ---
 
-### 2️⃣ Elastic Beanstalk Environment Running
+### 2️⃣ Node Version Output
 
-Status: Ready
-Health: Green
-
-![Beanstalk Running](images/beanstalk-running.png)
+![Node Output](images/node-output.PNG)
 
 ---
 
-### 3️⃣ RDS Instance Available
+### 3️⃣ Uploading Node.js App to S3
 
-Shows endpoint and status.
-
-![RDS Instance](images/rds-instance.png)
+![Node.js on S3](images/node.js-on-s3.PNG)
 
 ---
 
-### 4️⃣ EC2 Instance Details
+### 4️⃣ Terraform Apply Output
 
-Running instance in same VPC.
-
-![EC2 Instance](images/ec2-instance.png)
+![Terraform Output](images/output.PNG)
 
 ---
 
-### 5️⃣ Successful MySQL Connection
+### 5️⃣ Elastic Beanstalk Environment Running
 
-```bash
-mysql -h <rds-endpoint> -u admin -p
-mysql>
-```
+Status: Ready, Health: Green
+
+![Elastic Beanstalk](images/elastic-beanstalk.PNG)
 
 ---
 
-### 6️⃣ Database Output Example
+### 6️⃣ RDS Database Instance
 
-```sql
-SELECT * FROM users;
-```
+![RDS Database](images/database.PNG)
 
-Output:
+---
 
-```
-+----+----------+
-| id | name     |
-+----+----------+
-|  1 | Dhanraj  |
-+----+----------+
-```
+### 7️⃣ Working Database Connection
+
+![Working Database](images/working_database.PNG)
 
 ---
 
