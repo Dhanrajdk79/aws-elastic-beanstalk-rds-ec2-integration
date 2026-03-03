@@ -1,0 +1,24 @@
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+
+# Crash log files
+crash.log
+
+# Exclude override files as they are usually local
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration directories
+.terraform.lock.hcl
+
+# Sensitive variable files (if any)
+*.tfvars
+*.tfvars.json
+
+# Ignore node artifacts if this repo also contains app code
+node_modules/
+npm-debug.log
